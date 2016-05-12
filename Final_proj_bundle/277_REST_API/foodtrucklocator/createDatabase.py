@@ -1,0 +1,40 @@
+import sqlite3
+
+connection = sqlite3.connect('FoodTruckLocator.db')
+cursor=connection.cursor()
+
+
+cursor.execute('CREATE TABLE truckLogin (userName CHAR(10) UNIQUE, password CHAR(10), trucktId INTEGER UNIQUE, PRIMARY KEY (trucktId))')
+cursor.execute('CREATE TABLE truckStatus (trucktId INTEGER UNIQUE, geoLat CHAR(20),geoLong CHAR(20), activeFlag CHAR(2),truckName CHAR(20), imageLoc CHAR(120), metadata CHAR(80) ,PRIMARY KEY (trucktId))')
+
+
+for t in [('truckOwner1', 'xxxxxxx',1),('truckOwner2', 'xxxxxxx',2),('truckOwner3', 'xxxxxxx',3),('truckOwner4', 'xxxxxxx',4),('truckOwner5', 'xxxxxxx',5)]:
+    cursor.execute('insert into truckLogin values (?,?,?)', t)
+
+
+for stu in [(11111,'37.337','-121.883','Y','Street Wings','http://www.recommendeddaily.co/wp-content/uploads/2014/02/street-wings-0204141.jpg','http://s3-media2.fl.yelpcdn.com/bphoto/Np0vNOXFPapzF0KKWXr4JQ/o.jpg'),(11112,'37.336','-121.881','Y','Street Eats','http://roaminghunger.com/img/trucks/original/552e97f2-cdb8-4c17-a9bb-378946204482.jpg','http://www.street-eats.co.uk/menu.jpg'),(11113,'37.337','-121.881','Y','Good Dog','http://roaminghunger.com/img/trucks/original/4e684eff-7300-4931-bb4e-417246204482.jpg','http://mobile-cuisine.com/wp-content/uploads/2012/12/Good-Dog-Houston-Menu-e1354554234187.jpg'),(11114,'37.334','-121.887','Y','Tacos','https://upload.wikimedia.org/wikipedia/commons/d/d1/Taco_Truck_St_Louis_MO.jpg','http://www.lataco.com/wp-content/uploads/ko_taco_menu.jpg'),(11115,'37.334','-121.885','Y','Sushi Truck','http://roaminghunger.com/img/trucks/original/5538314c-29f4-4ef8-b65d-1e9346204482.jpg','http://www.findlafoodtrucks.com/wp-content/uploads/2012/07/rollingsushi_menu_512.jpg')]:
+    cursor.execute('insert into truckStatus values (?,?,?,?,?,?,?)', stu)
+
+
+
+print("***** Truck Login Table Data*****")
+cursor.execute('SELECT * from truckLogin')
+data=cursor.fetchall()
+print(data)
+
+print
+print("***** Truck Status Table Data*****")
+cursor.execute('SELECT * from truckStatus')
+data1=cursor.fetchall()
+print(data1)
+print 
+
+
+print("********* Master Database of Food Truck Locator Created *********")
+print
+
+connection.commit()
+connection.close()
+
+print "Connection closed"
+
