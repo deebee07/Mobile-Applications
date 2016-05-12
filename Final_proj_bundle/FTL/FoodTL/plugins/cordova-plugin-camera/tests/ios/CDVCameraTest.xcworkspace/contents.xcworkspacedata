@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Food Truck Owner.xcodeproj">
+      location = "container:CDVCameraTest/CDVCameraTest.xcodeproj">
    </FileRef>
 </Workspace>

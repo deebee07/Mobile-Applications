@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5BCB3D501CE1DAF7006D63DE"
-               BuildableName = "Food Truck Owner.app"
-               BlueprintName = "Food Truck Owner"
-               ReferencedContainer = "container:Food Truck Owner.xcodeproj">
+               BlueprintIdentifier = "5BA9A4191CE0086E00FF4445"
+               BuildableName = "Attendance_Display.app"
+               BlueprintName = "Attendance_Display"
+               ReferencedContainer = "container:Attendance_Display.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5BCB3D641CE1DAF8006D63DE"
-               BuildableName = "Food Truck OwnerTests.xctest"
-               BlueprintName = "Food Truck OwnerTests"
-               ReferencedContainer = "container:Food Truck Owner.xcodeproj">
+               BlueprintIdentifier = "5BA9A4321CE0086E00FF4445"
+               BuildableName = "Attendance_DisplayTests.xctest"
+               BlueprintName = "Attendance_DisplayTests"
+               ReferencedContainer = "container:Attendance_Display.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5BCB3D6F1CE1DAF8006D63DE"
-               BuildableName = "Food Truck OwnerUITests.xctest"
-               BlueprintName = "Food Truck OwnerUITests"
-               ReferencedContainer = "container:Food Truck Owner.xcodeproj">
+               BlueprintIdentifier = "5BA9A43D1CE0086E00FF4445"
+               BuildableName = "Attendance_DisplayUITests.xctest"
+               BlueprintName = "Attendance_DisplayUITests"
+               ReferencedContainer = "container:Attendance_Display.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5BCB3D501CE1DAF7006D63DE"
-            BuildableName = "Food Truck Owner.app"
-            BlueprintName = "Food Truck Owner"
-            ReferencedContainer = "container:Food Truck Owner.xcodeproj">
+            BlueprintIdentifier = "5BA9A4191CE0086E00FF4445"
+            BuildableName = "Attendance_Display.app"
+            BlueprintName = "Attendance_Display"
+            ReferencedContainer = "container:Attendance_Display.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5BCB3D501CE1DAF7006D63DE"
-            BuildableName = "Food Truck Owner.app"
-            BlueprintName = "Food Truck Owner"
-            ReferencedContainer = "container:Food Truck Owner.xcodeproj">
+            BlueprintIdentifier = "5BA9A4191CE0086E00FF4445"
+            BuildableName = "Attendance_Display.app"
+            BlueprintName = "Attendance_Display"
+            ReferencedContainer = "container:Attendance_Display.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5BCB3D501CE1DAF7006D63DE"
-            BuildableName = "Food Truck Owner.app"
-            BlueprintName = "Food Truck Owner"
-            ReferencedContainer = "container:Food Truck Owner.xcodeproj">
+            BlueprintIdentifier = "5BA9A4191CE0086E00FF4445"
+            BuildableName = "Attendance_Display.app"
+            BlueprintName = "Attendance_Display"
+            ReferencedContainer = "container:Attendance_Display.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
